@@ -1,5 +1,3 @@
-# Completa las validaciones y llama a la función
-
 import sys
 from solucion import reloj_arena
 
@@ -25,8 +23,7 @@ def main():
     m_str = data[0].strip() # Primera línea: altura máxima (como texto)
     s = data[1]             # Segunda línea: carácter (o cadena) para la figura
 
-    # Intentar convertir la altura a entero
-     try:
+    try:
         m = int(m_str)
     except ValueError:
         print("Error: La altura debe ser un numero entero")
