@@ -33,5 +33,6 @@ def main():
         return
         
     reloj_arena(m, s)
+
 if __name__ == "__main__":
     main()
